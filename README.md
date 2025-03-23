@@ -71,7 +71,7 @@ cd football-stats-api
    );
    \q
    ```
-4. Populate the table using the Python script (see [football-stats-scraper](https://github.com/your-username/football-stats-scraper)).
+4. Populate the table using the Python script (see [https://github.com/Gathuh/Web-Scraping-Football-Data/edit/main/README.md)).
 
 ### 3. Configure the Application
 1. Update `src/main/resources/application.properties`:
@@ -139,7 +139,7 @@ football-stats-scraper/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/football-stats-scraper.git
+git clone https://github.com/gathuh/football-stats-scraper.git
 cd football-stats-scraper
 ```
 
@@ -205,7 +205,7 @@ python prepare_data.py
 ```
 
 ## Usage
-The script populates the `player_static` table, which is accessed by the Spring Boot API (see [football-stats-api](https://github.com/your-username/football-stats-api)).
+The script populates the `player_static` table, which is accessed by the Spring Boot API (see [https://github.com/Gathuh/java-Premier-League-Application/edit/main/README.md)).
 
 ## Contributing
 1. Fork the repository.
