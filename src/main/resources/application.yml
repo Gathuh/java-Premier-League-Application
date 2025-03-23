@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: mondaytestest
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/football
+    username: postgres
+    password: 4522
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+security:
+  user:
+    name: Gathu
+    password: 4522
